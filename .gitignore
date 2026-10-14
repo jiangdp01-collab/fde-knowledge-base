@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 数据抓取中间产物（体积大，可通过 scripts/ 重新生成）
+scripts/repos_raw.json
+scripts/candidates.json
+scripts/filtered.json
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+*~.swp
